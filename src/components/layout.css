@@ -595,3 +595,49 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+body {
+  background: #333;
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(
+    45deg,
+    hsl(240deg 100% 60%) 0%,
+    hsl(288deg 100% 44%) 11%,
+    hsl(313deg 100% 46%) 22%,
+    hsl(326deg 100% 50%) 33%,
+    hsl(335deg 100% 50%) 44%,
+    hsl(351deg 100% 57%) 56%,
+    hsl(18deg 100% 57%) 67%,
+    hsl(33deg 100% 50%) 78%,
+    hsl(43deg 100% 48%) 89%,
+    hsl(55deg 100% 43%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px;
+}
+a {
+  background: -webkit-linear-gradient(
+    45deg,
+    hsl(240deg 100% 60%) 0%,
+    hsl(288deg 100% 44%) 11%,
+    hsl(313deg 100% 46%) 22%,
+    hsl(326deg 100% 50%) 33%,
+    hsl(335deg 100% 50%) 44%,
+    hsl(351deg 100% 57%) 56%,
+    hsl(18deg 100% 57%) 67%,
+    hsl(33deg 100% 50%) 78%,
+    hsl(43deg 100% 48%) 89%,
+    hsl(55deg 100% 43%) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tommy {
+  position: absolute;
+  top: 90%;
+  right: 0;
+  margin-bottom: 0;
+}
