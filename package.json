@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "that-cool-text-thing",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Chris LaRocque <larocque.christopher@gmail.com>",
   "dependencies": {
     "gatsby": "^4.9.2",
     "gatsby-plugin-gatsby-cloud": "^4.9.0",

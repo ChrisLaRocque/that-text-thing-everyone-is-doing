@@ -1,6 +1,6 @@
 import * as React from "react"
 // import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="The gradient text thing." />
     <h1>Your website is not cool unless you have the gradient text thing.</h1>
-    <img src={wtfGif} className="tommy"/>
+    <img src={wtfGif} className="tommy" alt="Tom Delonge questioning everything" />
     {/* <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
